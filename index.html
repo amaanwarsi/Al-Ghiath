@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qaza Tracker</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/core@latest/dist/css/tabler.min.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="card shadow-sm w-80 my-5 mx-auto">
+
+      <div class="card-body">
+
+        <h2 class="card-title text-center font-weight-bold mb-3 text-decoration-underline">
+          بسم الله الرحمن الرحيم
+        </h2>
+
+        <p class="card-text">
+
+          <span class="card-title text-center font-weight-bold mb-3">Qaza Tracker</span>
+          <br />this is simple app for keeping track on how much qaza salah's you're lefting with.
+        </p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Total: &nbsp;<span class="text-bold" id="total"></span></li>
+        <li class="list-group-item">Current: &nbsp;<span class="text-bold" id="remaining"></span></li>
+        <li class="list-group-item">Expected Time: &nbsp;<span class="text-bold" id="time"></span></li>
+      </ul>
+
+      <div class="card-footer">
+        <button type="button" id="btn" class="btn btn-secondary w-100">Do you offer today?</button>
+
+      </div>
+
+      <div class="card-stamp">
+        <div class="card-stamp-icon bg-yellow">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pray" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <circle cx="12" cy="5" r="1" />
+            <path d="M7 20h8l-4 -4v-7l4 3l2 -2" />
+          </svg>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
