@@ -1,7 +1,7 @@
 var urlsToCache = [
-  '/index.html',
-  '/tabler.min.css',
-  '/main.js'
+  './index.html',
+  './tabler.min.css',
+  './main.js'
 ];
 
 self.addEventListener('install', (event) => {
