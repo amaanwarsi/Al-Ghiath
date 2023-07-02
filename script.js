@@ -32,7 +32,7 @@ if (typeof(Storage) !== "undefined") {
     alert("hiii")
 
   } else{
-      alert("hiii")
+      alert("byee")
 totalValue = localStorage.getItem("qazaRemaining");
   }
   
