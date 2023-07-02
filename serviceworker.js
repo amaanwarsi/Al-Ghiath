@@ -1,7 +1,8 @@
 var urlsToCache = [
   'https://amaanwarsi.thedev.id/qaza-salah-tracker/',
   'https://amaanwarsi.thedev.id/qaza-salah-tracker/tabler.min.css',
-  'https://amaanwarsi.thedev.id/qaza-salah-tracker/main.js'
+  'https://amaanwarsi.thedev.id/qaza-salah-tracker/main.js',
+  'https://amaanwarsi.thedev.id/qaza-salah-tracker/assets/favicon.ico'
 ];
 
 self.addEventListener('install', (event) => {
