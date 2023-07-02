@@ -29,11 +29,9 @@ if (typeof(Storage) !== "undefined") {
   if(localStorage.getItem("qazaRemaining") === null){
     totalValue=prompt("Enter total qaza left"); 
     localStorage.setItem("qazaRemaining", totalValue);
-    alert("hiii")
-
+   
   } else{
-      alert("byee")
-totalValue = localStorage.getItem("qazaRemaining");
+   totalValue = localStorage.getItem("qazaRemaining");
   }
   
   var val = parseInt(total) + 1;;
