@@ -16,7 +16,7 @@ var totalQaza = document.querySelector("#total");
 var remaining = document.querySelector("#remaining");
 var extime = document.querySelector("#time");
 
-var totalValue = 1700; // total qaza were left
+var totalValue; // = 1700; // total qaza left
 
 
 const setVal = ((elem, item) => {
@@ -25,8 +25,15 @@ const setVal = ((elem, item) => {
 });
 
 if (typeof(Storage) !== "undefined") {
-  var total = localStorage.getItem("qaza");
+  var total = localStorage.getItem("qaza")
+  if(empty(localStorage.getItem("qazaRemaining")){
+    totalValue=prompt("Enter total qaza left"); 
+    localStorage.setItem("qazaRemaining", totalValue);
 
+  } else{
+     totalValue = localStorage.getItem("qazaRemaining");
+  }
+  
   var val = parseInt(total) + 1;;
   if (total === null) {
     val = 1;
