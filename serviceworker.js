@@ -1,7 +1,7 @@
 var urlsToCache = [
-  './index.html',
-  './tabler.min.css',
-  './main.js'
+  'https://amaanwarsi.thedev.id/qaza-salah-tracker/',
+  'https://amaanwarsi.thedev.id/qaza-salah-tracker/tabler.min.css',
+  'https://amaanwarsi.thedev.id/qaza-salah-tracker/main.js'
 ];
 
 self.addEventListener('install', (event) => {
