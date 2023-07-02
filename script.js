@@ -26,7 +26,7 @@ const setVal = ((elem, item) => {
 
 if (typeof(Storage) !== "undefined") {
   var total = localStorage.getItem("qaza")
-  if(empty(localStorage.getItem("qazaRemaining")){
+  if(localStorage.getItem("qazaRemaining") === null){
     totalValue=prompt("Enter total qaza left"); 
     localStorage.setItem("qazaRemaining", totalValue);
 
